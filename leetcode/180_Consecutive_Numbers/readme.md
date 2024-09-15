@@ -1,3 +1,4 @@
+```
 180. Consecutive Numbers
 
 +-------------+---------+
@@ -15,7 +16,6 @@ Find all numbers that appear at least three times consecutively.
 Return the result table in any order.
 
 The result format is in the following example.
-
  
 
 Example 1:
@@ -33,6 +33,8 @@ Logs table:
 | 6  | 2   |
 | 7  | 2   |
 +----+-----+
+
+
 Output: 
 +-----------------+
 | ConsecutiveNums |
@@ -40,3 +42,4 @@ Output:
 | 1               |
 +-----------------+
 Explanation: 1 is the only number that appears consecutively for at least three times.
+```
