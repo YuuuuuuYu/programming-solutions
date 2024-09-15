@@ -43,3 +43,19 @@ Output:
 +-----------------+
 Explanation: 1 is the only number that appears consecutively for at least three times.
 ```
+
+# Solution
+```
+select num ConsecutiveNums
+from (
+   select 
+       id, num
+       , (select count(*) 
+           from logs 
+           where id between l.id and l.id + 2
+               and num = l.num) cnt
+   from logs l
+)
+where cnt = 3
+group by num
+```
