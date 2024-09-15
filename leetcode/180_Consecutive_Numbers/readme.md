@@ -1,6 +1,4 @@
 ```
-180. Consecutive Numbers
-
 +-------------+---------+
 | Column Name | Type    |
 +-------------+---------+
@@ -43,6 +41,7 @@ Output:
 +-----------------+
 Explanation: 1 is the only number that appears consecutively for at least three times.
 ```
+
 
 # Solution
 ```
