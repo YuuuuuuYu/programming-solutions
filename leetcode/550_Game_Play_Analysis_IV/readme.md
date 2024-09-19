@@ -58,3 +58,12 @@ left join (select player_id
     , (select count(distinct player_id) cnt from activity) player 
 group by player.cnt
 ```
+
+# Reflection
+이 문제의 핵심은 각 플레이어의 `최초로그인일자(first_login_date)` 기준으로
+
+다음 날 접속일자가 있는지 체크하는 것인데
+
+나는 무조건 이틀 연속 로그인 한 플레이어 기준으로 했었다.
+
+이 부분만 잘 인지했으면 30분은 절약했을 것 같다.
