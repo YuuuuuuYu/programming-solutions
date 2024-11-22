@@ -57,7 +57,7 @@ public class boj_1913 {
       int N = Integer.parseInt(br.readLine());
       int snail[][] = new int[N+1][N+1];
       int init_X = (N+1)/2;
-      int init_Y = (N+1)/2;
+      int init_Y = init_X;
       snail[init_X][init_Y] = 1;
     
       int target = Integer.parseInt(br.readLine());
