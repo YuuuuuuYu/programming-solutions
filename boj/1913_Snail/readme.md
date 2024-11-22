@@ -129,3 +129,6 @@ public class boj_1913 {
 # 고려사항
 - 초반에 움직인 걸음수`moving` 값으로 계산했는데 배열의 원소를 순차적으로 증가하는 값`number`을 넣는게 맞는 것 같다.
 - 타겟 좌표가 1일때, 초기화를 했어야했는데 그 부분이 미흡했다.
+- 초반엔 그림을 그려가며 각 DP로 계산할려고 했으나, 생각해보니 N*N이 될 때까지 좌표를 계산하면 되는 것이었다.
+
+![그림 1](https://raw.githubusercontent.com/YuuuuuuYu/programming-solutions/refs/heads/main/boj/1913_Snail/image.png)
